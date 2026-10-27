@@ -42,9 +42,9 @@
  
 <h1>Delete your data</h1>
 <p class="meta">Application: <strong>Chronostone</strong> (<code>com.SP.gemquest</code>)<br>
-Last updated: 6 September 2026</p>
+Last updated: 27 October 2026</p>
  
-<p>Chronostone does not use accounts — there is no username, email address, or password associated with your play. You can delete everything the Game holds about you from inside the Game itself, without contacting anyone.</p>
+<p>Chronostone does not use accounts of its own — there is no username, email address, or password associated with your play (signing in with Google Play Games is optional). You can delete everything the Game holds about you from inside the Game itself, without contacting anyone.</p>
  
 <h2>Deleting your data from inside the Game</h2>
  
@@ -82,12 +82,22 @@ Last updated: 6 September 2026</p>
   </tr>
   <tr>
     <td>Game progress and settings</td>
-    <td>On your device only</td>
+    <td>On your device</td>
     <td>The in-game button, or simply uninstalling the Game</td>
   </tr>
   <tr>
+    <td>Progress backup (levels, stars, currency), keyed by the device's Android ID</td>
+    <td>Our server (Cloudflare)</td>
+    <td>The in-game button</td>
+  </tr>
+  <tr>
+    <td>Google Play Games saved game (only if you signed in with Play Games)</td>
+    <td>Your Google Play Games account</td>
+    <td>The in-game button, or removing the game's data in Google Play Games</td>
+  </tr>
+  <tr>
     <td>Anonymous play statistics</td>
-    <td>On your device, and on our server (Cloudflare) once sent</td>
+    <td>On your device, and on our server (Cloudflare) once sent; the server records the country the upload came from, never the IP address</td>
     <td>The in-game button — deletes the local copy and discards the random install identifier, so anything already on the server can no longer be associated with your installation</td>
   </tr>
 </table>
